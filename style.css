@@ -1,3 +1,36 @@
 body {
+    display: flex;
     padding: 100px;
+    background: black;
+    color: white;
+    justify-content: center;
+}
+
+.header-text h1 {
+    text-align: center;
+}
+
+.links * {
+    display: flex;
+    justify-content: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover {
+    color: blue;
+}
+
+.third {
+    display: flex;
+}
+
+.third .right-text {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*flex-direction: column;*/
+    align-content: center;
 }
