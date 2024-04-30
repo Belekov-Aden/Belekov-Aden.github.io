@@ -38,7 +38,12 @@ body {
 
 @media screen and (max-width: 600px) {
     body {
+        display: block;
         padding: 20px; /* Уменьшаем внутренние отступы для мобильных устройств */
+    }
+
+    .links * {
+        display: block;
     }
 
     /* Уменьшаем размер шрифта на мобильных устройствах */
