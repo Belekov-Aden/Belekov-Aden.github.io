@@ -34,3 +34,56 @@ body {
     /*flex-direction: column;*/
     align-content: center;
 }
+
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 20px; /* Уменьшаем внутренние отступы для мобильных устройств */
+    }
+
+    /* Уменьшаем размер шрифта на мобильных устройствах */
+    .header-text h1 {
+        font-size: 24px;
+    }
+
+    /* Уменьшаем отступы и размер шрифта на мобильных устройствах */
+    .links * {
+        font-size: 14px;
+    }
+
+    /* Делаем третий раздел (Education) более компактным на мобильных устройствах */
+    .third {
+        flex-direction: column; /* Устанавливаем вертикальное направление для элементов */
+        align-items: center; /* Выравниваем элементы по центру */
+    }
+
+    /* Уменьшаем размер шрифта и отступы на мобильных устройствах */
+    .third .under-text p {
+        font-size: 14px;
+    }
+
+    /* Уменьшаем размер шрифта и отступы на мобильных устройствах */
+    .third .right-text p {
+        font-size: 14px;
+    }
+
+    /* Делаем второй раздел (Backend Developer Python) более компактным на мобильных устройствах */
+    .second {
+        text-align: center;
+    }
+
+    /* Уменьшаем размер шрифта на мобильных устройствах */
+    .second .under-text p {
+        font-size: 14px;
+    }
+
+    /* Делаем четвертый раздел (Advanced training, courses) более компактным на мобильных устройствах */
+    .fourth {
+        text-align: center;
+    }
+
+    /* Уменьшаем размер шрифта и отступы на мобильных устройствах */
+    .fourth .under-text p {
+        font-size: 14px;
+    }
+}
