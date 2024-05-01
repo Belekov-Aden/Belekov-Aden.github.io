@@ -66,6 +66,10 @@ main {
         padding: 20px; /* Уменьшаем внутренние отступы для мобильных устройств */
     }
 
+    main {
+        width: auto;
+    }
+
     .links * {
         display: block;
     }
