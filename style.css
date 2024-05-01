@@ -6,6 +6,25 @@ body {
     justify-content: center;
 }
 
+main {
+    width: 750px;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-text {
+    padding-left: 40px;
+}
+.under-text * {
+    text-align: justify;
+}
+
 .header-text h1 {
     text-align: center;
 }
@@ -33,6 +52,11 @@ body {
     /*flex-wrap: wrap;*/
     /*flex-direction: column;*/
     align-content: center;
+}
+
+
+.header-text {
+    text-align: center;
 }
 
 
