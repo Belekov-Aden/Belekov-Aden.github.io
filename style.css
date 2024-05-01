@@ -10,6 +10,20 @@ main {
     width: 750px;
 }
 
+.dark-theme {
+    background: black;
+    color: white;
+}
+
+.light-theme {
+    background: white;
+    color: black;
+
+    .links a {
+        color: black;
+    }
+}
+
 .second {
     display: flex;
     flex-direction: row;
@@ -21,6 +35,7 @@ main {
 .right-text {
     padding-left: 40px;
 }
+
 .under-text * {
     text-align: justify;
 }
