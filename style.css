@@ -59,6 +59,12 @@ main {
     text-align: center;
 }
 
+.update-last {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 15px;
+}
+
 
 @media screen and (max-width: 600px) {
     body {
