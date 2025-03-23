@@ -14,10 +14,11 @@
 <main>
     <div class="change-theme">
         <button id='themeToggle'>Change theme</button>
+        <button id='languageToggle'>Переключить на русский</button>
     </div>
     <section class="first">
         <div class="header-text">
-            <h1>Belekov Aden</h1>
+            <h1 id="name">Belekov Aden</h1>
         </div>
         <div class="links">
             <ol>
@@ -29,79 +30,75 @@
     </section>
     <div class="header-text">
         <h3>
-            <i>Education</i>
+            <i id="educationHeader">Education</i>
         </h3>
     </div>
     <section class="second">
         <div>
             <div class="under-text">
-                <p><u>Magadan Polytechnic College (MPT)</u></p>
-                <p>Information systems and programming</p>
-                <p>Relevant Courses: Web Technology, OOP, Algorithms, Database management, Statistic, Discrete math</p>
+                <p><u id="collegeName">Magadan Polytechnic College (MPT)</u></p>
+                <p id="collegeMajor">Information systems and programming</p>
+                <p id="collegeCourses">Relevant Courses: Web Technology, OOP, Algorithms, Database management, Statistic, Discrete math</p>
             </div>
         </div>
         <div class="right-text">
-            <p>Expected graduation date: May 2026</p>
-            <p>Course: 3<br>GPA: 4.8/5.0</p>
-            <p>Scholarship holder: 3 y.</p>
+            <p id="graduationDate">Expected graduation date: May 2026</p>
+            <p id="courseGpa">Course: 3<br>GPA: 4.8/5.0</p>
+            <p id="scholarship">Scholarship holder: 3 y.</p>
         </div>
     </section>
     <section class="scills">
         <div class="header-text">
             <h3>
-                <i>Technical Skills</i>
+                <i id="skillsHeader">Technical Skills</i>
             </h3>
         </div>
         <div class="under-text">
-            <p>Programming Languages: Python, C#, JavaScript</p>
-            <p>Frameworks & Tool‑Kits: Django, DRF, FastAPI, PyPy </p>
-            <p>Packages & Libraries & SDK: OpenCV, Pillow, Jupyter, NumPy, Matplotlib, Pandas, Selenium</p>
-            <p>Data Bases: MySQL, PostgreSQL </p>
-            <p>Knowledge: OOP, SOLID, Data Structures & Algorithms, TCP, HTTP</p>
-            <p>Tools: Git, GitHub, GitLab, PythonAnywhere, Heroku</p>
-            <p>Operating Systems: Windows 10/11, Linux Ubuntu</p>
-            <p>Other Skills: Adobe Illustrator/Photoshop, bash, Microsoft Office tools, JetBrains tools, VS Code</p>
+            <p id="programmingLanguages">Programming Languages: Python, C#, JavaScript</p>
+            <p id="frameworks">Frameworks & Tool‑Kits: Django, DRF, FastAPI, PyPy</p>
+            <p id="libraries">Packages & Libraries & SDK: OpenCV, Pillow, Jupyter, NumPy, Matplotlib, Pandas, Selenium</p>
+            <p id="databases">Data Bases: MySQL, PostgreSQL</p>
+            <p id="knowledge">Knowledge: OOP, SOLID, Data Structures & Algorithms, TCP, HTTP</p>
+            <p id="tools">Tools: Git, GitHub, GitLab, PythonAnywhere, Heroku</p>
+            <p id="os">Operating Systems: Windows 10/11, Linux Ubuntu</p>
+            <p id="otherSkills">Other Skills: Adobe Illustrator/Photoshop, bash, Microsoft Office tools, JetBrains tools, VS Code</p>
         </div>
     </section>
 
     <section class="awards">
         <div class="header-text">
             <h3>
-                <i>Awards & Courses</i>
+                <i id="awardsHeader">Awards & Courses</i>
             </h3>
         </div>
 
         <div class="under-text">
-            <p>2024 Certificate Yandex Python Advanced Course - Data Visualization and Analysis </p>
-            <p>2024 1st place in the 2nd Regional Stage of the Professional Skill Championship "Professionals" 2024. in
-                the
-                Magadan region - Web - Technology</p>
-            <p>2024 Letter of Appreciation for the progress in study Magadan Polytechnic College (MPT)</p>
-            <p>2023 Docker Certificate from Scratch - Karpov.Courses</p>
-            <p>2023 Certificate of completion with honors "Quick start in FastAPI Python) - Sergey Vasiliev &
-                Stepik </p>
-            <p>2023 Certificate of Completion of the Course with Honors "Interactive Simulator on SQL) - Far Eastern
-                Federal University & Stepik</p>
-            <p>2022 Python for Beginners Sololearn, Python</p>
-            <p>2022 Certificate of Graphic Design "The Academy of Creative Professions"</p>
+            <p id="yandexCertificate">2024 Certificate Yandex Python Advanced Course - Data Visualization and Analysis</p>
+            <p id="professionalsAward">2024 1st place in the 2nd Regional Stage of the Professional Skill Championship "Professionals" 2024 in the Magadan region - Web - Technology</p>
+            <p id="collegeAppreciation">2024 Letter of Appreciation for the progress in study Magadan Polytechnic College (MPT)</p>
+            <p id="dockerCertificate">2023 Docker Certificate from Scratch - Karpov.Courses</p>
+            <p id="fastapiCertificate">2023 Certificate of completion with honors "Quick start in FastAPI Python" - Sergey Vasiliev & Stepik</p>
+            <p id="sqlCertificate">2023 Certificate of Completion of the Course with Honors "Interactive Simulator on SQL" - Far Eastern Federal University & Stepik</p>
+            <p id="pythonBeginners">2022 Python for Beginners Sololearn, Python</p>
+            <p id="graphicDesignCertificate">2022 Certificate of Graphic Design "The Academy of Creative Professions"</p>
         </div>
     </section>
 
     <section>
         <div class="header-text">
             <h3>
-                <i>Personal Qualities & Information</i>
+                <i id="personalHeader">Personal Qualities & Information</i>
             </h3>
         </div>
         <div class="under-text">
-            <p>Skills: Leadership, Management, Problem‑Solving, Interpersonal, Documenting</p>
-            <p>Kyrgyz‑Native, Russian‑Native, English‑Advanced</p>
-            <p>Hobbies: Chess, Drawing</p>
+            <p id="personalSkills">Skills: Leadership, Management, Problem‑Solving, Interpersonal, Documenting</p>
+            <p id="languages">Kyrgyz‑Native, Russian‑Native, English‑Advanced</p>
+            <p id="hobbies">Hobbies: Chess, Drawing</p>
         </div>
     </section>
 
     <section>
-        <div class="update-last">
+        <div class="update-last" id="lastUpdate">
             Last update: March 2025
         </div>
     </section>
