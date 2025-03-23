@@ -11,6 +11,7 @@ document.getElementById('themeToggle').addEventListener('click', function () {
 // Тексты для английского и русского языков
 const translations = {
     en: {
+        themeToggle: 'Change theme',
         name: "Belekov Aden",
         educationHeader: "Education",
         collegeName: "Magadan Polytechnic College (MPT)",
@@ -45,6 +46,7 @@ const translations = {
         languageToggle: "Переключить на русский"
     },
     ru: {
+        themeToggle: 'Переключить тему',
         name: "Белеков Аден",
         educationHeader: "Образование",
         collegeName: "Магаданский политехнический колледж (МПК)",
