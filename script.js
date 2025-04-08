@@ -32,6 +32,7 @@ const translations = {
         awardsHeader: "Awards & Courses",
         yandexCertificate: "2024 Certificate Yandex Python Advanced Course - Data Visualization and Analysis",
         professionalsAward: "2024 1st place in the 2nd Regional Stage of the Professional Skill Championship 'Professionals' 2024 in the Magadan region - Web - Technology",
+        professionalsAward25: "2025 1st place in the 3nd Regional Stage of the Professional Skill Championship 'Professionals' 2025 in the Magadan region - Web - Technology",
         collegeAppreciation: "2024 Letter of Appreciation for the progress in study Magadan Polytechnic College (MPT)",
         dockerCertificate: "2023 Docker Certificate from Scratch - Karpov.Courses",
         fastapiCertificate: "2023 Certificate of completion with honors 'Quick start in FastAPI Python' - Sergey Vasiliev & Stepik",
